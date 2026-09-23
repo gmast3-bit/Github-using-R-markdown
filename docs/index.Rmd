@@ -1,8 +1,11 @@
 ---
-title: "R markdown"
+title: "Github from R Markdown practice"
 author: "Gulshan Mastonova"
-date: "2026-09-23"
-output: html_document
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty:
+    theme: hpstr
+    toc: yes
 ---
 
 ```{r setup, include=FALSE}
